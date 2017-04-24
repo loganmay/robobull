@@ -161,7 +161,6 @@ class Table extends React.Component {
 	render() {
 		var _this = this;
 		if(this.state.loaded) {
-			var suggClass = '';
 			console.log(this.state.data)
 			return (
 				<div className="table-container" style={{ width: '85%', marginLeft: '7.5%', float:'left'}}>
@@ -178,13 +177,13 @@ class Table extends React.Component {
 				      	JSON.parse(this.state.data).map(function(e) {
 				      		var suggClass = '';
 				      		var rowClass = 'row-class';
-				      		if(e.Suggestion = 'BUY') {
+				      		if(e.Suggestion === 'BUY') {
 				      			suggClass += 'buy';
 				      			rowClass += ' row-buy'
-				      		} else if(e.Suggestion = 'SELL') {
+				      		} else if(e.Suggestion === 'SELL') {
 				      			suggClass += 'sell';
 				      			rowClass += ' row-sell'
-				      		} else if(e.Suggestion = 'HOLD') {
+				      		} else if(e.Suggestion === 'HOLD') {
 				      			suggClass += 'hold';
 				      			rowClass += ' row-hold'
 				      		}

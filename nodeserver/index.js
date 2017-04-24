@@ -66,7 +66,7 @@ app.get('/:collection', function(req, res) {
 	"Rating" : 100,
 	"Name" : "ConocoPhillips",
 	"Symbol" : "COP",
-	"Suggestion" : "BUY",
+	"Suggestion" : "HOLD",
 	"Volatility" : 9.52574090544249
 },
 {
@@ -74,7 +74,7 @@ app.get('/:collection', function(req, res) {
 	"Rating" : 100,
 	"Name" : "D.R. Horton, Inc.",
 	"Symbol" : "DHI",
-	"Suggestion" : "BUY",
+	"Suggestion" : "HOLD",
 	"Volatility" : 1.4611621274097644
 },
 {
@@ -82,7 +82,7 @@ app.get('/:collection', function(req, res) {
 	"Rating" : 100,
 	"Name" : "DTE Energy Company",
 	"Symbol" : "DTE",
-	"Suggestion" : "BUY",
+	"Suggestion" : "SELL",
 	"Volatility" : 4.947259915981647
 },
 {
@@ -90,7 +90,7 @@ app.get('/:collection', function(req, res) {
 	"Rating" : 100,
 	"Name" : "eBay Inc.",
 	"Symbol" : "EBAY",
-	"Suggestion" : "BUY",
+	"Suggestion" : "SELL",
 	"Volatility" : 2.3833279618515633
 }];
 
