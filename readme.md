@@ -9,6 +9,3 @@ CPR&FIST was the winner of the MongoDB prize for best use of MongoDB
 
 ## UI w/o Graph
 ![Image of Robobull](http://logan-may.com/wp-content/uploads/2017/04/cprandfist_2.png)
-
-## What I did
-I wrote the node server to pull the data from mongo. I also wrote and designed the React with bootstrap frontend, which I've shared here.
